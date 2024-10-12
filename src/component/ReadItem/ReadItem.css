@@ -1,0 +1,94 @@
+.lk-readItem{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 24px 64px 0 64px;
+}
+
+.lk-readItem-father2{
+    width: 100%;
+}
+.lk-readItem-name{
+    padding-top: 76px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 73px;
+}
+.lk-readItem-Fimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.lk-readItem-img{
+    height: 373px;
+}
+.lk-readItem-F-par{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+.lk-readItem-par{
+    font-size: 60px;
+    font-weight: 600;
+}
+.lk-readItem-par3{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.lk-readItem-span{
+    color: rgba(128, 128, 128, 0.55);
+    font-size: 40px;
+    font-weight: 500;
+
+}
+@media(max-width:1370px){
+    .lk-readItem-par,.lk-readItem-par3,.lk-readItem-name{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .lk-readItem-span{
+        font-size: 30px;
+    }
+    .lk-readItem-img{
+        height: 250px;
+    }
+    .lk-readItem-name{
+        padding-top: 30px;
+    }
+}
+@media(max-width:1200px){
+     .lk-readItem-Fimg{
+        padding: 20px 0 20px 0;
+    }
+    .lk-readItem-par,.lk-readItem-par3,.lk-readItem-name{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .lk-readItem-span{
+        font-size: 25px;
+    }
+    .lk-readItem-name{
+        padding-top: 30px;
+    }
+}
+@media(max-width:992px){
+    .lk-readItem{
+        padding: 20px 20px 0 20px;
+    }
+    .lk-readItem-par,.lk-readItem-par3,.lk-readItem-name{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .lk-readItem-name{
+        padding-top: 20px;
+    }
+    .readItem-par3{
+        padding-top: 20px;
+    }
+    .lk-readItem-img{
+        height: 200px;
+    }
+}

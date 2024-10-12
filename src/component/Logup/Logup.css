@@ -1,0 +1,75 @@
+.lk-father-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+.lk-logup-input{
+    width: 200px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid rgba(229, 229, 229, 1)
+}
+.lk-logup-email{
+    width: 415px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid rgba(229, 229, 229, 1)
+}
+.logup-p{
+    padding: 42px 0 20px 0;
+}
+.log-p{
+    padding: 0 30px;
+}
+.lk-logup-F-input-file{
+    width: 100px;
+    height: 100px;
+    background: rgba(248, 248, 255, 1);
+    border: 1px dashed rgba(56, 78, 183, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.lk-logup-ch-img{
+    width: 82px;
+}
+.lk-logup-F-img{
+    width: 40px;
+}
+.lk-mb2{
+    margin-bottom: 14px;
+}
+@media(max-width:1400px){
+    .lk-father-input{
+        padding-bottom: 4px;
+    }
+    .lk-mb2{
+        margin-bottom: 0px;
+    }
+    .logup-p{
+        padding: 16px 0 16px 0;
+    }
+    .log-p{
+        padding: 0 0px;
+    }
+}
+@media(max-width:1200px){
+    .lk-logup-email{
+        height: 40px;
+        width: 380px;
+    }
+    .lk-logup-input{
+        width: 180px;
+        height: 40px;
+    }
+    .log-p{
+        padding: 0 20px;
+    }
+    .lk-logup-F-input-file{
+        width: 80px;
+        height: 70px;
+    }
+}

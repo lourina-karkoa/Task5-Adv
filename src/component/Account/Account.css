@@ -1,0 +1,22 @@
+.lk-login-par2{
+    padding-top: 27px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(108, 108, 108, 1);
+}
+.lk-login-span{
+    color: rgba(254, 175, 0, 1) !important;
+}
+.lk-login-link{
+    text-decoration-color: rgba(254, 175, 0, 1);
+}
+@media(max-width:1400px){
+    .lk-login-par2{
+        padding-top: 20px;
+    }
+}
+@media(max-width:1200px){
+    .lk-login-par2{
+        padding-top: 7px;
+    }
+}

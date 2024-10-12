@@ -1,0 +1,132 @@
+.lk-ADD-Father{
+    padding: 24px 64px 0 64px;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+}
+.lk-Add-part-one{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+.lk-Add-Form-Father{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:120px ;
+}
+.lk-Add-lable{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: rgba(108, 108, 108, 1);
+}
+.lk-Add-f-input{
+    width: 100%;
+    max-width: 415px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid rgba(229, 229, 229, 1);
+    margin-top: 16px;
+    cursor: pointer;
+}
+.lable-margin{
+    margin-bottom: 64px;
+}
+.lk-mb{
+    margin-bottom: 14px;
+}
+.lk-Add-f-input::placeholder{
+    color: rgba(205, 205, 205, 1);
+    padding-left: 15px;
+}
+.lk-Add-Submit{
+    display: block;
+    margin: 0 auto;
+    width:199px;
+    height: 61px;
+    background: rgba(254, 175, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    cursor: pointer;
+}
+.lk-add-img{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+.lk-add-F-input-file{
+    width: 100%;
+    max-width: 547px;
+    height: 209px;
+    background: rgba(248, 248, 255, 1);
+    border: 1px dashed rgba(56, 78, 183, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.lk-add-F-input-file .lk-Edit-img{
+    width: 208px;
+}
+.lk-add-input-file[type="file"]{
+    display: none;
+}
+.lk-Add-CH-img{
+    width: 208px;
+}
+@media(max-width:1400px){
+    .lk-Add-h1{
+        padding: 30px 0;
+    }
+    .lk-Add-Form-Father{
+        padding-bottom: 60px;
+    }
+    .lable-margin{
+        margin-bottom: 16px;
+    }
+    .lk-add-F-input-file{
+        height: 160px;
+    }
+    .lk-add-F-input-file .lk-Add-F-img{
+        width: 90px;
+    }
+    .lk-add-F-input-file .lk-Edit-img{
+        width: 157px;
+    }
+    .lk-Add-CH-img{
+        width: 156px;
+    }
+}
+@media(max-width:1200px){
+    .lk-add-F-input-file{
+        height: 160px;
+    }
+    .lk-Add-f-input{
+        width: 90%;
+    }
+    .lk-Add-lable{
+        font-size: 25px;
+    }
+    .lk-Add-Submit{
+        width: 160px;
+        height: 50px;
+        font-size: 25px;
+    }
+    .lk-Add-Form-Father {
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:992px){
+    .lk-ADD-Father{
+        padding: 20px 20px 0 20px;
+    }
+    .lk-Add-lable {
+        font-size: 20px;
+    }
+}

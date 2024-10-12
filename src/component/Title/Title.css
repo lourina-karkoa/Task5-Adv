@@ -1,0 +1,20 @@
+.lk-Add-h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 73px;
+    padding: 76px 0;
+}
+@media(max-width:1400px){
+    .lk-Add-h1{
+        padding: 40px 0;
+        font-size: 55px;
+    }
+
+}
+@media(max-width:1200px){
+    .lk-Add-h1{
+        font-size: 40px;
+        padding: 30px 0;
+    }
+
+}

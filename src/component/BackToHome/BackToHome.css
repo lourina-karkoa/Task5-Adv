@@ -1,0 +1,21 @@
+.lk-back-link{
+    text-decoration: none;
+}
+.lk-Back-to-Home{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin:24px 0 0 64px; */
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.lk-Back-to-Home i{
+    color: black;
+}
+.lk-Back-to-Home:hover{
+    background-color: rgba(254, 175, 0, 1);
+}
