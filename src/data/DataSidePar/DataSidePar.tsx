@@ -10,7 +10,7 @@ interface dataSidePar{
 }
 export const img:string =logo;
 export const dataSidePar:Array<dataSidePar>=[
-    {path:"/Products",icon:icon1,title:'Products',act:true},
+    {path:"/Read",icon:icon1,title:'Products',act:true},
     {path:"/Favorites",icon:icon2,title:'Favorites',act:false},
     {path:"/OrderList",icon:icon2,title:'order list',act:false}
 ]

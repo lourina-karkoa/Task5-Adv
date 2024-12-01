@@ -20,7 +20,7 @@ export default function Login() {
       .then(res =>{ localStorage.setItem('token', `Bearer ${res.data.token}`)
       localStorage.setItem('img', `${res.data.user.profile_image_url}`)
       localStorage.setItem('name', `${res.data.user.user_name}`)
-      navigate('/Products/Read')
+      navigate('/Read')
          })
       .catch(error => console.log(error))
   }

@@ -51,7 +51,7 @@ export default function Edit() {
     })
     .then(res => {
       console.log(res.data);
-      navigate('/Products/Read');
+      navigate('/Read');
     })
     .catch(error => console.log(error));
   };

@@ -36,7 +36,7 @@ export default function Logup() {
       .then(res =>{ localStorage.setItem('token', `Bearer ${res.data.data.token}`)
       localStorage.setItem('img', `${res.data.data.user.profile_image_url}`)
       localStorage.setItem('name', `${res.data.data.user.user_name}`)
-      navigate('/Products/Read')
+      navigate('/Read')
          })
       .catch(error => console.log(error))
   }

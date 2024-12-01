@@ -21,23 +21,23 @@ const routes = createBrowserRouter([
     element:<Logup/>
   },
   {
-    path:"/Products",
+    path:"",
     element:<Products/>,
     children:[
     {
-      path:"/Products/Read",
+      path:"/Read",
       element:<Read/>,
     },
     {
-      path:"/Products/ReadItem/:id",
+      path:"/ReadItem/:id",
       element:<ReadItem/>,
     },
     {
-      path:"/Products/Add",
+      path:"/Add",
       element:<Add/>,
     },
     {
-      path:"/Products/Edit/:id",
+      path:"/Edit/:id",
       element:<Edit/>,
     }
   ]
