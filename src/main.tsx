@@ -50,7 +50,11 @@ const routes = createBrowserRouter([
     path:"/OrderList",
     element:<OrderList/>
   },
-])
+],
+{
+  basename: "/Task5-Adv", 
+}
+)
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={routes}></RouterProvider>
